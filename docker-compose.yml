@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  mongo:
+    image: mongo
+    container_name: mongo
+    ports:
+      - "27017:27017"
+  mongo-seed:
+    build: importer
+    container_name: mongo_seed
+    environment:
+      - DB_NAME=playground
+    links:
+      - mongo
