@@ -9,6 +9,7 @@ Clone the repository and run the service using `docker compose` to get MongoDB d
 * [Companies](./importer/data/companies.json) - List of companies with name, details, website, employee count etc.
 * [Countries](./importer/data/countries.json) - List of countries with their names and ISO codes in different languages
 * [Restaurants](./importer/data/restaurants.json) - List of restaurants with their names, address, ratings and food they serve
+* [Students](./importer/data/students.json) - List of students with their names and scores in different exam types
 
 ## Running
 
