@@ -1,8 +1,8 @@
 # mongo-playground
 
-> Datasets and docker setup to play and experiment with MongoDB.
+> Single command to setup MongoDB play ground with different Datasets
 
-Clone the repository and run the service using `docker compose` to get MongoDB datasets populated with sample data to play with. There are 8 datasets available at the present:
+Clone and run `docker compose` to get following MongoDB datasets in a running MongoDB service:
 
 * [Airbnb](./importer/data/airbnb.json) — Airbnb listings, details and their reviews
 * [Books](./importer/data/books.json) - List of books with titles, authors, isbn, page count, status etc
